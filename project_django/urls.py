@@ -15,13 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from mywatchlist.views import id_funct_json, id_funct_xml, watchlist, xml_funct, json_funct
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('example_app.urls')),
     path('katalog/', include('katalog.urls')),
-    path('mywatchlist/', include('mywatchlist.urls'))
-    
+    path('mywatchlist/', include('mywatchlist.urls')),
+    path('', xml_funct),
+    path('', json_funct),
+    path('', id_funct_xml),
+    path('', id_funct_json),
 ]
 
 # TODO: Implement Routings Here

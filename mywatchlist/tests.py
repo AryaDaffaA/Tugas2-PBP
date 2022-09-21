@@ -4,7 +4,7 @@ from .views import index
 
 class ContohAppTest(TestCase):
     def test_contoh_app_url_exist(self):
-        response = Client().get('/contohapp')
+        response = Client().get('https://tugas2-pbp-arya.herokuapp.com/mywatchlist/')
         self.asserEqual(response.status_code, 200)
 
     def test_contoh_app_url_exist(self):
