@@ -3,7 +3,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 1,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Avengers",
             "rating": 4,
             "release_date": "June 20, 2012",
@@ -14,7 +14,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 2,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Avatar",
             "rating": 5,
             "release_date": "January 10, 2010",
@@ -36,7 +36,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 4,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Thor: Love And Thunder",
             "rating": 5,
             "release_date": "May 12, 2022",
@@ -47,7 +47,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 5,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Minions: The Rise of Gru",
             "rating": 4,
             "release_date": "June 28, 2022",
@@ -58,7 +58,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 6,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Monster Hunter Rise",
             "rating": 5,
             "release_date": "March 26, 2021",
@@ -69,7 +69,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 7,
         "fields": {
-            "watched": true,
+            "watched": false,
             "title": "Fantastic Beast and Where to Find Them",
             "rating": 5,
             "release_date": "November 16, 2016",
