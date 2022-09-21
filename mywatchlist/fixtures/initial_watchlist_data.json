@@ -1,0 +1,113 @@
+[
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 1,
+        "fields": {
+            "watched": true,
+            "title": "Avengers",
+            "rating": 4,
+            "release_date": "June 20, 2012",
+            "review": "Iron Man OP"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 2,
+        "fields": {
+            "watched": true,
+            "title": "Avatar",
+            "rating": 5,
+            "release_date": "January 10, 2010",
+            "review": "Blue everywhere"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 3,
+        "fields": {
+            "watched": false,
+            "title": "Kimetsu No Yaiba: Mugen Train",
+            "rating": 5,
+            "release_date": "April 1st, 2021",
+            "review": "A Great Movie is what they said"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 4,
+        "fields": {
+            "watched": true,
+            "title": "Thor: Love And Thunder",
+            "rating": 5,
+            "release_date": "May 12, 2022",
+            "review": "Uncle Thor back in action"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 5,
+        "fields": {
+            "watched": true,
+            "title": "Minions: The Rise of Gru",
+            "rating": 4,
+            "release_date": "June 28, 2022",
+            "review": "The first one was better"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 6,
+        "fields": {
+            "watched": true,
+            "title": "Monster Hunter Rise",
+            "rating": 5,
+            "release_date": "March 26, 2021",
+            "review": "Don't even try valstrax event"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 7,
+        "fields": {
+            "watched": true,
+            "title": "Fantastic Beast and Where to Find Them",
+            "rating": 5,
+            "release_date": "November 16, 2016",
+            "review": "Another great story written by J.K Rowling   "
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 8,
+        "fields": {
+            "watched": false,
+            "title": "Arcane",
+            "rating": 5,
+            "release_date": "November 6, 2021",
+            "review": "They say it's great but i don't know"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 9,
+        "fields": {
+            "watched": false,
+            "title": "Cyberpunk: Edgerunners",
+            "rating": 5,
+            "release_date": "September 13, 2022",
+            "review": "Another anime i haven't watched yet"
+        }
+    },
+    {
+        "model": "mywatchlist.MyWatchList",
+        "pk": 10,
+        "fields": {
+            "watched": false,
+            "title": "Top Gun: Maverick",
+            "rating": 5,
+            "release_date": "May 27, 2022",
+            "review": "Another great movie starring Tom Cruise"
+        }
+    }
+    
+]
