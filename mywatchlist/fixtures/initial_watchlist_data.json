@@ -14,7 +14,7 @@
         "model": "mywatchlist.MyWatchList",
         "pk": 2,
         "fields": {
-            "watched": false,
+            "watched": true,
             "title": "Avatar",
             "rating": 5,
             "release_date": "January 10, 2010",
