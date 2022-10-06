@@ -5,7 +5,30 @@
 {% endblock meta %}
 
 {% block content %}  
-
+<style>
+    h1{
+        text-align: center;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        background-color:beige;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+      }
+      th{
+        background-color: beige;
+        color:black;
+        text-align: center;
+        font-weight: bold;
+      }
+      tr{
+        border: 1px solid;
+        text-align: center;
+        width:100%;
+      }
+    </style>
 <div class = "addtask">
     
     <h1>Tambah Task</h1>  
@@ -29,6 +52,7 @@
         </ul>   
     {% endif %}
 
+     
 </div>  
 
 {% endblock content %}

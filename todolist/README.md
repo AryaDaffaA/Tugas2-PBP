@@ -1,3 +1,5 @@
+**Tugas 4**
+
 1. csrf token beguna untuk keamanan data yang kita miliki. Dengan tidak adanya csrf pada form, akan memungkinkan adanya celah bagi pengguna lain untuk membobol form dan mengekspos data yang ada.
 2. Pembuatan elemen form bisa juga dilakukan tanpa menggunakan form.as_table. Pembuatan form dapat menggunakan berbagai type yang ada, contohnya seperti "text", "password" dan lainnya. Elemen dari form yang sudah memiliki type kemudian harus diberikan value agar dapat dibedakan satu sama lain. Lalu setiap input yang ada harus diikuti dengan type "submit" agar elemen tersebut tersimpan pada database.
 3. Untuk melakukan submisi kita membuat form registrasi yang dimana tersedia tombol submit (pada tugas ini tombol submit diberi value "Daftar"). Ketika user mendaftar, data yang diinput user akan dicek validasinya. Jika data yang diinput valid maka data tersebut akan di-save di database. Setelah data berhasil di-save, user kemudian akan di redirect ke halaman login untuk memasukkan data yang telah diinput tadi. Data yang sudah di-save tadi akan dirender oleh Django untuk ditampilkan sebagai halaman HTML.
@@ -13,3 +15,25 @@ Password: wortel123
 
 Username: wortel22
 Password: kentang123
+
+
+**Tugas 5**
+1. **Inline** merupakan style yang diterapkan langsung pada tag yang ingin kita style-kan. Kelebihan pada inline terletak pada prioritas dimana jika kita menggunakan style selain inline, maka style yang kita terapkan pada inline akan menjadi prioritas. Kekurangan inline terletak pada repetisi yang perlu kita lakukan apabila kita ingin melakukan style pada banyak tag yang sama sekaligus.
+**Internal** merupakan style yang kita terapkan pada satu halaman html yang berlaku untuk seluruh halaman html itu saja. Kekurangannya terletak pada prioritas yang mana lebih diprioritaskan inline jika dibandingkan dengan internal. Kelebihannya adalah keefektifan jika ingin melakukan style pada 1 halaman html sekaligus.
+**External** merupakan style yang kita terapkan pada seluruh halaman web kita sekaligus. Kekurangannya adalah kita harus memberikan selector pada tag yang ingin kita bedakan dengan tag lainnya dan kelebihannya adalah efektif dalam membuat style yang ingin diterapkan pada seluruh web sekaligus.
+
+2. Tag <!DOCTYPE html> adalah sebuah deklarasi untuk mengidentifikasi jenis dokumen yang digunakan.
+Tag <html>...</html> berfungsi sebagai root, dimana semua hal dalam tag tersebut akan diidentifiasi sebagai gambaran dari dokumen html.
+Tag <head>...</head> berfungsi memberikan informasi mengenai dokumen-dokumen html.
+Tag <Title>...</Title> berfungsi untuk memberikan title pada halaman html.
+Tag<body>...</body> berfungsi memberikan isi dari suatu dokumen yang akan ditampilkan pada web browser.
+
+3. Selector
+Element selector berfungsi mengubah style untuk semua tag dari elemen tersebut.
+ID selector berfunbgsi mengubah style untuk semua tag yang sudah kita berikan ID yang sama yang sudah kita jadikan sebagai selector.
+Class Selector berfungsi mengubah tampilan html pada tag yang diberikan class.
+
+4. Pertama saya mengimport bootstrap pada base.html agar bootstrap dapat digunakan pada html yang sudah saya buat.
+Lalu saya menerapkan internal style pada setiap html yang saya buat dengan menggunakan tag <style></style>  untuk mengubah tiap-tiap html pada halaman web browser. Lalu saya menerapkan bootstrap pada pembuatan card yang dilakukan di todolist.html yang dimana terdapat 1 card untuk 1 task. Penerapan web responsive sudah diterapkan secara default dengan menerapkan tag meta 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Dengan menerapkan tag meta tersebut, bootstrap sudah secara default menerapkan responsive web.
