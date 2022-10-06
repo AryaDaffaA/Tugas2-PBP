@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 **Tugas 4**
+=======
+Heroku login: https://tugas2-pbp-arya.herokuapp.com/todolist/login/  Heroku register: https://tugas2-pbp-arya.herokuapp.com/todolist/register/  
+Heroku main page: https://tugas2-pbp-arya.herokuapp.com/todolist/
+>>>>>>> 48057dc0eca3e40fb31602ed02355f0d73dce74c
 
 1. csrf token beguna untuk keamanan data yang kita miliki. Dengan tidak adanya csrf pada form, akan memungkinkan adanya celah bagi pengguna lain untuk membobol form dan mengekspos data yang ada.
 2. Pembuatan elemen form bisa juga dilakukan tanpa menggunakan form.as_table. Pembuatan form dapat menggunakan berbagai type yang ada, contohnya seperti "text", "password" dan lainnya. Elemen dari form yang sudah memiliki type kemudian harus diberikan value agar dapat dibedakan satu sama lain. Lalu setiap input yang ada harus diikuti dengan type "submit" agar elemen tersebut tersimpan pada database.
