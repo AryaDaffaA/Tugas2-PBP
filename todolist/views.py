@@ -94,3 +94,5 @@ def show_json(request):
 
 def show_ajax(request):
     return render(request, "todolist_ajax.html")
+
+    #test
