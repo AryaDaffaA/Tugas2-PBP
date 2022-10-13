@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from todolist.models import TodoList
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseNotFound
 from django.core import serializers
 from django.shortcuts import redirect
 from django.contrib.auth.forms import UserCreationForm
@@ -75,3 +75,22 @@ def add_task(request):
     form = addNewTask()
     context = {'form':form}
     return render(request, 'addTask.html', context)
+
+def add_task_ajax(request):
+    if request.method == 'POST':
+        title = request.POST.get("title")
+        description = request.POST.get("description")
+
+        new_todolist = TodoList(user=request.user, title=title, description=description)
+        new_todolist.save()
+
+        return HttpResponse(b"CREATED", status=201)
+
+    return HttpResponseNotFound()
+
+def show_json(request):
+    todolist_item = TodoList.objects.filter(user=request.user)
+    return HttpResponse(serializers.serialize('json', todolist_item))
+
+def show_ajax(request):
+    return render(request, "todolist_ajax.html")
